@@ -1,0 +1,752 @@
+[
+    {
+        "artistName": "2 Chainz"
+    },
+    {
+        "artistName": "2Pac"
+    },
+    {
+        "artistName": "50 Cent"
+    },
+    {
+        "artistName": "6LACK"
+    },
+    {
+        "artistName": "ABBA"
+    },
+    {
+        "artistName": "Aerosmith"
+    },
+    {
+        "artistName": "Amy Winehouse"
+    },
+    {
+        "artistName": "André Rieu"
+    },
+    {
+        "artistName": "Andrea Bocelli"
+    },
+    {
+        "artistName": "Andrew Lloyd Webber"
+    },
+    {
+        "artistName": "Andy Gibb"
+    },
+    {
+        "artistName": "Aretha Franklin"
+    },
+    {
+        "artistName": "Ariana Grande"
+    },
+    {
+        "artistName": "Ashanti"
+    },
+    {
+        "artistName": "ASHBA"
+    },
+    {
+        "artistName": "Asher Roth"
+    },
+    {
+        "artistName": "Audioslave"
+    },
+    {
+        "artistName": "B.B. King"
+    },
+    {
+        "artistName": "Barbara Mandrell"
+    },
+    {
+        "artistName": "Barry White"
+    },
+    {
+        "artistName": "Bastille"
+    },
+    {
+        "artistName": "Beastie Boys"
+    },
+    {
+        "artistName": "Bee Gees"
+    },
+    {
+        "artistName": "Big Sean"
+    },
+    {
+        "artistName": "Billy Idol"
+    },
+    {
+        "artistName": "Blink-182"
+    },
+    {
+        "artistName": "Bluphoria"
+    },
+    {
+        "artistName": "Bob Marley & The Wailers"
+    },
+    {
+        "artistName": "Bob Seger"
+    },
+    {
+        "artistName": "Bobbie Gentry"
+    },
+    {
+        "artistName": "Bobby Brown"
+    },
+    {
+        "artistName": "Bon Jovi"
+    },
+    {
+        "artistName": "Boyz II Men"
+    },
+    {
+        "artistName": "Brian Eno"
+    },
+    {
+        "artistName": "Bryan Adams"
+    },
+    {
+        "artistName": "BTS"
+    },
+    {
+        "artistName": "Buddy Holly"
+    },
+    {
+        "artistName": "Cam'ron"
+    },
+    {
+        "artistName": "Carpenters"
+    },
+    {
+        "artistName": "Chris Cornell"
+    },
+    {
+        "artistName": "Chuck Berry"
+    },
+    {
+        "artistName": "Cold War Kids"
+    },
+    {
+        "artistName": "Commodores"
+    },
+    {
+        "artistName": "Common"
+    },
+    {
+        "artistName": "Counting Crows"
+    },
+    {
+        "artistName": "Def Leppard"
+    },
+    {
+        "artistName": "Diamond D"
+    },
+    {
+        "artistName": "Diana Krall"
+    },
+    {
+        "artistName": "Diana Ross"
+    },
+    {
+        "artistName": "DJ Khaled"
+    },
+    {
+        "artistName": "DMX"
+    },
+    {
+        "artistName": "Don Cherry"
+    },
+    {
+        "artistName": "Donna Summer"
+    },
+    {
+        "artistName": "Dr. Dre"
+    },
+    {
+        "artistName": "Drake"
+    },
+    {
+        "artistName": "Duff McKagan"
+    },
+    {
+        "artistName": "Duran Duran"
+    },
+    {
+        "artistName": "Eagles"
+    },
+    {
+        "artistName": "Eagles Of Death Metal"
+    },
+    {
+        "artistName": "Eazy-E"
+    },
+    {
+        "artistName": "Elaine Brown"
+    },
+    {
+        "artistName": "Ella Fitzgerald"
+    },
+    {
+        "artistName": "Ellie Goulding"
+    },
+    {
+        "artistName": "Elliott Smith"
+    },
+    {
+        "artistName": "Elton John"
+    },
+    {
+        "artistName": "Elvis Costello"
+    },
+    {
+        "artistName": "Eminem"
+    },
+    {
+        "artistName": "Eric B. & Rakim"
+    },
+    {
+        "artistName": "Eric Clapton"
+    },
+    {
+        "artistName": "Erykah Badu"
+    },
+    {
+        "artistName": "Fall Out Boy"
+    },
+    {
+        "artistName": "Fatboy Slim"
+    },
+    {
+        "artistName": "Four Tops"
+    },
+    {
+        "artistName": "Frank Sinatra"
+    },
+    {
+        "artistName": "Frank Zappa"
+    },
+    {
+        "artistName": "Garbage"
+    },
+    {
+        "artistName": "George Harrison"
+    },
+    {
+        "artistName": "George Thorogood"
+    },
+    {
+        "artistName": "Glen Campbell"
+    },
+    {
+        "artistName": "Glenn Frey"
+    },
+    {
+        "artistName": "Guns N' Roses"
+    },
+    {
+        "artistName": "Guru"
+    },
+    {
+        "artistName": "Hollywood Vampires"
+    },
+    {
+        "artistName": "Howlin' Wolf"
+    },
+    {
+        "artistName": "Ice Cube"
+    },
+    {
+        "artistName": "J. Cole"
+    },
+    {
+        "artistName": "Ja Rule"
+    },
+    {
+        "artistName": "Jack Johnson"
+    },
+    {
+        "artistName": "Jadakiss"
+    },
+    {
+        "artistName": "Jake Steinfeld"
+    },
+    {
+        "artistName": "James Brown"
+    },
+    {
+        "artistName": "Janet Jackson"
+    },
+    {
+        "artistName": "Jay Rock"
+    },
+    {
+        "artistName": "JAY-Z"
+    },
+    {
+        "artistName": "Jeezy"
+    },
+    {
+        "artistName": "Jeremih"
+    },
+    {
+        "artistName": "Jhené Aiko"
+    },
+    {
+        "artistName": "Jimmy Cliff"
+    },
+    {
+        "artistName": "Jimmy Eat World"
+    },
+    {
+        "artistName": "Jimmy Ruffin"
+    },
+    {
+        "artistName": "Jóhann Jóhannsson"
+    },
+    {
+        "artistName": "John Coltrane"
+    },
+    {
+        "artistName": "John Lennon"
+    },
+    {
+        "artistName": "John Mellencamp"
+    },
+    {
+        "artistName": "Jorge Ben"
+    },
+    {
+        "artistName": "Keith Urban"
+    },
+    {
+        "artistName": "Kendrick Lamar"
+    },
+    {
+        "artistName": "Kenny Rogers"
+    },
+    {
+        "artistName": "Keyshia Cole"
+    },
+    {
+        "artistName": "Kid Cudi"
+    },
+    {
+        "artistName": "KISS"
+    },
+    {
+        "artistName": "Kool & The Gang"
+    },
+    {
+        "artistName": "Lady Gaga"
+    },
+    {
+        "artistName": "Lenny Kravitz"
+    },
+    {
+        "artistName": "Leonard Bernstein"
+    },
+    {
+        "artistName": "Like A Storm"
+    },
+    {
+        "artistName": "Lil Wayne"
+    },
+    {
+        "artistName": "Lil Yachty"
+    },
+    {
+        "artistName": "Lionel Richie"
+    },
+    {
+        "artistName": "Little Steven"
+    },
+    {
+        "artistName": "Live"
+    },
+    {
+        "artistName": "Liz Phair"
+    },
+    {
+        "artistName": "LL Cool J"
+    },
+    {
+        "artistName": "Logic"
+    },
+    {
+        "artistName": "Loreena McKennitt"
+    },
+    {
+        "artistName": "Louis Armstrong"
+    },
+    {
+        "artistName": "Luciano Pavarotti"
+    },
+    {
+        "artistName": "Ludacris"
+    },
+    {
+        "artistName": "Luke Bryan"
+    },
+    {
+        "artistName": "Lynyrd Skynyrd"
+    },
+    {
+        "artistName": "M.I.A."
+    },
+    {
+        "artistName": "Marlena Shaw"
+    },
+    {
+        "artistName": "Maroon 5"
+    },
+    {
+        "artistName": "Martha Reeves & The Vandellas"
+    },
+    {
+        "artistName": "Marvin Gaye"
+    },
+    {
+        "artistName": "Mary J. Blige"
+    },
+    {
+        "artistName": "Master P"
+    },
+    {
+        "artistName": "Meat Loaf"
+    },
+    {
+        "artistName": "Megadeth"
+    },
+    {
+        "artistName": "Melody Gardot"
+    },
+    {
+        "artistName": "Migos"
+    },
+    {
+        "artistName": "Mobb Deep"
+    },
+    {
+        "artistName": "Motown The Musical"
+    },
+    {
+        "artistName": "N.E.R.D"
+    },
+    {
+        "artistName": "N.W.A"
+    },
+    {
+        "artistName": "Nas"
+    },
+    {
+        "artistName": "Nat King Cole"
+    },
+    {
+        "artistName": "Ne-Yo"
+    },
+    {
+        "artistName": "Neil Diamond"
+    },
+    {
+        "artistName": "Neil Young"
+    },
+    {
+        "artistName": "Nelly"
+    },
+    {
+        "artistName": "Nelly Furtado"
+    },
+    {
+        "artistName": "Nick Drake"
+    },
+    {
+        "artistName": "Nicki Minaj"
+    },
+    {
+        "artistName": "Nine Inch Nails"
+    },
+    {
+        "artistName": "Nirvana"
+    },
+    {
+        "artistName": "Norman Granz"
+    },
+    {
+        "artistName": "Olivia Newton-John"
+    },
+    {
+        "artistName": "Oscar Peterson"
+    },
+    {
+        "artistName": "Papa Roach"
+    },
+    {
+        "artistName": "Patsy Cline"
+    },
+    {
+        "artistName": "Paul McCartney"
+    },
+    {
+        "artistName": "Paul Stanley"
+    },
+    {
+        "artistName": "Pearl Jam"
+    },
+    {
+        "artistName": "Pete The Cat"
+    },
+    {
+        "artistName": "Peter Frampton"
+    },
+    {
+        "artistName": "Pharoah Sanders"
+    },
+    {
+        "artistName": "Pharrell Williams"
+    },
+    {
+        "artistName": "Playboi Carti"
+    },
+    {
+        "artistName": "Poison"
+    },
+    {
+        "artistName": "Post Malone"
+    },
+    {
+        "artistName": "Primus"
+    },
+    {
+        "artistName": "Public Enemy"
+    },
+    {
+        "artistName": "Public Image Ltd."
+    },
+    {
+        "artistName": "Pusha T"
+    },
+    {
+        "artistName": "Queens Of The Stone Age"
+    },
+    {
+        "artistName": "Rae Sremmurd"
+    },
+    {
+        "artistName": "RAMP"
+    },
+    {
+        "artistName": "Randy Bachman"
+    },
+    {
+        "artistName": "Reba McEntire"
+    },
+    {
+        "artistName": "Rick James"
+    },
+    {
+        "artistName": "Rick Ross"
+    },
+    {
+        "artistName": "Rick Springfield"
+    },
+    {
+        "artistName": "Ricky Nelson"
+    },
+    {
+        "artistName": "Rihanna"
+    },
+    {
+        "artistName": "Ringo Starr"
+    },
+    {
+        "artistName": "Rob Zombie"
+    },
+    {
+        "artistName": "Roger Miller"
+    },
+    {
+        "artistName": "Rory Gallagher"
+    },
+    {
+        "artistName": "Rush"
+    },
+    {
+        "artistName": "Sam Smith"
+    },
+    {
+        "artistName": "Sammy Hagar"
+    },
+    {
+        "artistName": "ScHoolboy Q"
+    },
+    {
+        "artistName": "Scissor Sisters"
+    },
+    {
+        "artistName": "Semisonic"
+    },
+    {
+        "artistName": "Showbiz & A.G."
+    },
+    {
+        "artistName": "Slick Rick"
+    },
+    {
+        "artistName": "Slim Gaillard"
+    },
+    {
+        "artistName": "Smash Mouth"
+    },
+    {
+        "artistName": "Smashing Pumpkins"
+    },
+    {
+        "artistName": "Snoop Dogg"
+    },
+    {
+        "artistName": "Soft Cell"
+    },
+    {
+        "artistName": "Soundgarden"
+    },
+    {
+        "artistName": "Spice Girls"
+    },
+    {
+        "artistName": "Steve Miller Band"
+    },
+    {
+        "artistName": "Stevie Wonder"
+    },
+    {
+        "artistName": "StrateJacket"
+    },
+    {
+        "artistName": "Styx"
+    },
+    {
+        "artistName": "Sublime"
+    },
+    {
+        "artistName": "Supremes"
+    },
+    {
+        "artistName": "Teena Marie"
+    },
+    {
+        "artistName": "Terry Callier"
+    },
+    {
+        "artistName": "TESLA"
+    },
+    {
+        "artistName": "Teyana Taylor"
+    },
+    {
+        "artistName": "that dog."
+    },
+    {
+        "artistName": "The Avett Brothers"
+    },
+    {
+        "artistName": "The Band"
+    },
+    {
+        "artistName": "The Beach Boys"
+    },
+    {
+        "artistName": "The Beatles"
+    },
+    {
+        "artistName": "The Beta Machine"
+    },
+    {
+        "artistName": "The Cardigans"
+    },
+    {
+        "artistName": "The Chemical Brothers"
+    },
+    {
+        "artistName": "The Cranberries"
+    },
+    {
+        "artistName": "The Game"
+    },
+    {
+        "artistName": "The Jacks"
+    },
+    {
+        "artistName": "The Jackson 5"
+    },
+    {
+        "artistName": "The Killers"
+    },
+    {
+        "artistName": "The Police"
+    },
+    {
+        "artistName": "The Revelries"
+    },
+    {
+        "artistName": "The Rolling Stones"
+    },
+    {
+        "artistName": "The Roots"
+    },
+    {
+        "artistName": "The Temptations"
+    },
+    {
+        "artistName": "The Velvet Underground"
+    },
+    {
+        "artistName": "The Wallflowers"
+    },
+    {
+        "artistName": "The Weeknd"
+    },
+    {
+        "artistName": "The Who"
+    },
+    {
+        "artistName": "The-Dream"
+    },
+    {
+        "artistName": "Toby Keith"
+    },
+    {
+        "artistName": "Tom Petty"
+    },
+    {
+        "artistName": "Tom Petty & The Heartbreakers"
+    },
+    {
+        "artistName": "Trisha Yearwood"
+    },
+    {
+        "artistName": "U2"
+    },
+    {
+        "artistName": "Vince Staples"
+    },
+    {
+        "artistName": "Weezer"
+    },
+    {
+        "artistName": "Wilko Johnson"
+    },
+    {
+        "artistName": "Willie Hutch"
+    },
+    {
+        "artistName": "Wynonna"
+    },
+    {
+        "artistName": "Yeah Yeah Yeahs"
+    },
+    {
+        "artistName": "Yelawolf"
+    },
+    {
+        "artistName": "YG"
+    }
+]
