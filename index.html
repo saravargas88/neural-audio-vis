@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Psychedelic Genre Bubbles</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at center, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #vis-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    #legend {
+      max-width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-top: 1px solid #555;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+    .legend-color {
+      width: 16px;
+      height: 16px;
+      margin-right: 6px;
+      border-radius: 50%;
+      border: 1px solid white;
+      box-shadow: 0 0 8px white;
+    }
+    svg {
+      background: repeating-conic-gradient(from 0deg, #0f0c29 0%, #302b63 25%, #24243e 50%, #0f0c29 75%, #302b63 100%);
+    }
+    .label-title {
+      font-size: 20px;
+      text-anchor: middle;
+      fill: #fff;
+      font-weight: bold;
+      letter-spacing: 1px;
+      filter: drop-shadow(0 0 5px white);
+    }
+  </style>
+</head>
+<body>
+  <div id="vis-container">
+    <svg width="900" height="500"></svg>
+  </div>
+  <div id="legend"></div>
+  <script>
+    d3.json("data/processed/genre_summary_by_label.json").then(genreData => {
+      const labels = Object.keys(genreData);
+      const width = 900, height = 500;
+      const svg = d3.select("svg");
+      const gridCols = labels.length;
+      const cellWidth = width / gridCols;
+      const cellHeight = height;
+
+      const allBubbles = [];
+      const palette = {
+        pop: d3.interpolateCool,
+        rock: d3.interpolateWarm,
+        hiphop: d3.interpolatePlasma,
+        default: d3.interpolateRainbow
+      };
+
+      const genreColorMap = new Map();
+      let genreIndex = 0;
+
+      function pickColor(genre, index) {
+        if (genre.includes("pop")) return palette.pop(index % 10 / 10);
+        if (genre.includes("rock")) return palette.rock(index % 10 / 10);
+        if (genre.includes("hip hop") || genre.includes("rap")) return palette.hiphop(index % 10 / 10);
+        return palette.default(index % 10 / 10);
+      }
+
+      labels.forEach((label, i) => {
+        const genres = Object.entries(genreData[label]).map(([genre, count]) => {
+          if (!genreColorMap.has(genre)) {
+            genreColorMap.set(genre, pickColor(genre.toLowerCase(), genreIndex++));
+          }
+          return {
+            genre,
+            count,
+            radius: count**2 * 5 + 10,
+            x: cellWidth * i + cellWidth / 2 + Math.random() * 30 - 15,
+            y: height / 2 + Math.random() * 30 - 15,
+            vx: Math.random() * 3 - 1.5,
+            vy: Math.random() * 3 - 1.5,
+            cellIndex: i,
+            color: genreColorMap.get(genre)
+          };
+        });
+
+        const g = svg.append("g")
+          .attr("transform", `translate(${cellWidth * i},0)`);
+
+        g.append("text")
+          .attr("x", cellWidth / 2)
+          .attr("y", 30)
+          .attr("class", "label-title")
+          .text(label);
+
+        const bubbles = g.selectAll("circle")
+          .data(genres)
+          .enter()
+          .append("circle")
+          .attr("r", d => d.radius)
+          .attr("cx", d => d.x - cellWidth * i)
+          .attr("cy", d => d.y)
+          .attr("fill", d => d.color)
+          .attr("stroke", "white")
+          .attr("stroke-width", 1.5)
+          .attr("opacity", 0.85)
+          .style("filter", "drop-shadow(0 0 6px white)")
+          .append("title")
+          .text(d => `${d.genre}: ${d.count}`);
+
+        allBubbles.push({ bubbles: g.selectAll("circle"), data: genres });
+      });
+
+      // Add legend
+      const legendContainer = d3.select("#legend");
+      genreColorMap.forEach((color, genre) => {
+        const item = legendContainer.append("div").attr("class", "legend-item");
+        item.append("div")
+          .attr("class", "legend-color")
+          .style("background-color", color);
+        item.append("span").text(genre);
+      });
+
+      d3.timer(() => {
+        allBubbles.forEach(({ bubbles, data }, i) => {
+          bubbles.data(data)
+            .attr("cx", d => {
+              d.x += d.vx;
+              if (d.x - d.radius < cellWidth * d.cellIndex || d.x + d.radius > cellWidth * (d.cellIndex + 1)) d.vx *= -1;
+              return d.x - cellWidth * d.cellIndex;
+            })
+            .attr("cy", d => {
+              d.y += d.vy;
+              if (d.y - d.radius < 40 || d.y + d.radius > height) d.vy *= -1;
+              return d.y;
+            });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
