@@ -70,10 +70,10 @@ app.get('/callback', async function(req, res) {
     if (data.access_token) {
       console.log('Access Token:', data.access_token);
       console.log('Refresh Token:', data.refresh_token);
-      res.send('✅ Authorization successful! You can close this window.');
+      res.send('Authorization successful! You can close this window.');
     } else {
       console.error('Token exchange error:', data);
-      res.send('❌ Token exchange failed. See terminal.');
+      res.send(' Token exchange failed. See terminal.');
     }
 
   } catch (error) {
